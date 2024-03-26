@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Chaymee_solace_terraform_provisioning_1711486594942-push-trigger-input-set
+  identifier: Build_Chaymee_solace_terraform_provisioning_1711486594942pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Chaymee_solace_terraform_provisioning_1711486594942
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
